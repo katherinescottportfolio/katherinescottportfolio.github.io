@@ -36,15 +36,18 @@
              
                 <ul>
                 
-                        <form action="contact.php" method="post">
-    Your name<br>
-    <input type="text" name="cf_name"><br>
-    Your e-mail<br>
-    <input type="text" name="cf_email"><br>
-    Message<br>
-    <textarea name="cf_message"><br>contact me<br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Clear">
+                        <form method="post" name="contact_form"
+action="contact-form-handler.php">
+    Your Name:
+    <input type="text" name="name">
+ 
+    Email Address:
+    <input type="text" name="email">
+ 
+    Message:
+    <textarea name="message"></textarea>
+ 
+    <input type="submit" value="Submit">
 </form>
 
                 </ul>
